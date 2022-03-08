@@ -1,0 +1,104 @@
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1558470598-a5dda9640f68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80;)
+    
+}
+
+#generate{
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    margin: 5px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #242ef8, #007cff, #00a3ff, #00c0cf, #00d7a3, #45d57c, #70d14e, #99ca00, #baae00, #d58d00, #ea6400, #f6220e);
+ 
+}
+
+#color{
+    padding: 10px;
+    border-radius: 20px;
+  text-align: center;
+    color: black;
+    margin-bottom: 20px;
+  
+}
+.rainbow{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.chd{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #40e4f0;
+    opacity: 0.6;
+align-items: center;
+ width: 30%;
+ border: solid 1px  #c40ad4;
+  border-radius: 70%;
+  padding: 40px;
+}
+
+h3{
+  
+color: #0d010e;
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+  
+}
+.placeholder{
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+    font-size: 20px;
+  
+} 
+
+@media all and (max-width: 800px){
+
+    h3{
+      
+        font-size: 20px;
+        margin-right: 70px;
+          }
+          .chd{
+              margin-top: 50px;
+              width: 30%;
+              border-radius: 50px 170px;
+              padding: 70px;
+                 }
+        
+      
+      input{
+            margin-left: -30px;
+
+}
+}
+@media all and (max-width: 500px){
+    h3{
+      
+  font-size: 15px;
+  margin-right: 70px;
+    }
+    .chd{
+      margin-top: -50px;
+        width: 30%;
+        border-radius: 50px 170px;
+        padding: 70px;
+           }
+        
+      
+  
+
+input{
+      margin-left: -30px;
+}
+}
